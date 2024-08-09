@@ -1,0 +1,5 @@
+namespace: prod
+
+configmap:
+  data:
+    FOO: 'This is on the PROD environment!'

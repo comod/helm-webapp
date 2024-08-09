@@ -1,0 +1,14 @@
+appName: myhelmapp
+
+port: 80
+
+namespace: default
+
+configmap:
+  name: myhelmapp-configmap-v3
+  data:
+    FOO: 'This app was deployed with helm!'
+
+image:
+  name: matter9114/php_hello_world
+  tag: latest

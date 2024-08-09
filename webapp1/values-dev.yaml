@@ -1,0 +1,5 @@
+namespace: dev
+
+configmap:
+  data:
+    FOO: 'This is on the DEV environment!'
